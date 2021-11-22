@@ -424,16 +424,97 @@ a:hover {
 }
 
 .teachers {
+    width: 100%;
+    margin: 0 auto;
     display:inline-flex;
     justify-content: center;
+}
+
+.persons {
+    width:380px;
+    /* display: inline-flex; */
+    /* margin: 0 atuo; */
 }
 
 .teachers .img-text{
     width: 370px;
     margin: 0 auto;
 }
-.teachers .img-text img{
+.persons .img-text img{
+    margin-left: 100px;
     width:200px;
     height: 200px;
     border-radius: 50%;
 }
+
+.waku-2 {
+    width: 365px;
+    height: 400px;
+    border: 2px solid #fff;
+}
+
+.q-and-a {
+    padding-top: 40px;
+    height: 270px;
+    background-color: #eab94d;
+    text-align: center;
+}
+.kakko-4 h1 {
+    font-size: 28px;
+}
+.q-and-a p{
+    margin: 0 auto;
+    width: 82px;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #eab94d;
+}
+
+.kakko-4 {
+    width: 850px;
+    margin: 0 auto;
+	
+	position: relative;
+    color: #fff;
+}
+
+.kakko-4::before, .kakko-4::after {
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+.kakko-4::before {
+	border-left: solid 5px #fff;
+	border-top: solid 5px #fff;
+	top: 0;
+	left: 0;
+}
+
+.kakko-4::after {
+	border-right: solid 5px #fff;
+	border-bottom: solid 5px #fff;
+	bottom: 0;
+	right: 0;
+}
+
+.triangle {
+    position: relative;
+    top:67px;
+    left: 700px;
+    width: 0;
+    height: 0;
+    /* border-style: solid; */
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 40px solid #eab94d;
+  }
+
+  .message-text-8{
+      height: 1047px;
+      background-color: #fff;
+  }
