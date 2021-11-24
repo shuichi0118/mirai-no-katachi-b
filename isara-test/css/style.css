@@ -1,5 +1,6 @@
 body {
-    box-sizing: border-box;
+    max-width: fit-content;
+    margin: 0;
 }
 
 .container {
@@ -8,11 +9,16 @@ body {
 }
 
 .header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    margin:0;
     display: flex;
     justify-content: space-between;
-    margin-left: 64px;
-    margin-right: 64px;
-    height:72px;
+    padding-top: 15px;
+    padding-left: 64px;
+    padding-right: 64px;
+    height:75px;
     background-color: #fff;
 }
 
@@ -27,17 +33,22 @@ body {
 }
 
 .header-text-btn {
-    float: right;
+    /* float: right; */
+    margin-right: 160px;
 }
 
 .header-text-btn a {
     display: inline-block;
-    height: 72px;
-    line-height: 72px;
-    background-color: #ff0000;
+    text-align: center;
+    width: 316px;
+    line-height: 44px;
+    background-color: #DA6B63;
     color: #fff;
+    border-radius: 25px;
 }
-
+.main {
+    /* z-index: 8; */
+}
 .main-img {
     
     width: 1440px;
@@ -337,13 +348,13 @@ a:hover {
 .message-text-7 {
     width: 100%;
     height: 980px;
+    padding-top: 82px;
     background-color: #fef5e0;
 }
 
 .kakko-3 {
     width: 850px;
     margin: 0 auto;
-    margin-top: 82px;
 	padding: 30px;
 	position: relative;
 }
@@ -381,7 +392,11 @@ a:hover {
     justify-content: center;
     
 }
-
+.attention p{
+    margin:0;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
 .img-text {
     margin-right: 40px;
     width: 360px;
@@ -399,7 +414,7 @@ a:hover {
 .support-text {
     text-align: center;
     width: 1170px;
-    height: 248px;
+    /* height: 248px; */
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -432,8 +447,7 @@ a:hover {
 
 .persons {
     width:380px;
-    /* display: inline-flex; */
-    /* margin: 0 atuo; */
+    text-align: center;
 }
 
 .teachers .img-text{
@@ -441,12 +455,24 @@ a:hover {
     margin: 0 auto;
 }
 .persons .img-text img{
-    margin-left: 100px;
+    position: relative;
+    top:50px;
     width:200px;
     height: 200px;
     border-radius: 50%;
 }
 
+.persons .waku-2 h4 {
+    margin-top: 50px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1;
+}
+.persons .waku-2 p {
+    margin-left:10px;
+    margin-right:10px;
+    font-weight: 100;
+}
 .waku-2 {
     width: 365px;
     height: 400px;
@@ -504,7 +530,7 @@ a:hover {
 
 .triangle {
     position: relative;
-    top:67px;
+    top:66px;
     left: 700px;
     width: 0;
     height: 0;
