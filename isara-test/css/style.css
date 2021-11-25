@@ -1,9 +1,6 @@
-body {
-    max-width: fit-content;
-    margin: 0;
-}
+@charset "UTF-8";
 
-.container {
+body {
     width:1440px;
     margin: 0 auto;
 }
@@ -46,9 +43,7 @@ body {
     color: #fff;
     border-radius: 25px;
 }
-.main {
-    /* z-index: 8; */
-}
+
 .main-img {
     
     width: 1440px;
@@ -540,7 +535,143 @@ a:hover {
     border-top: 40px solid #eab94d;
   }
 
-  .message-text-8{
-      height: 1047px;
+.message-text-8{
+    text-align: center;
       background-color: #fff;
   }
+
+.coments {
+    width: 852px;
+    margin: 0 auto;
+}
+.coments-img {
+    display: flex;
+}
+  .coments-img img {
+      width:240px;
+      height:240px;
+      margin-left: 36px;
+      margin-bottom: 40px;
+      border: 2px solid #eab94d;
+  }
+.coments-img p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-right:56px;
+}
+.coments-img span {
+      text-decoration: underline;
+  }
+.studies {
+    height: 766px;
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg");
+    background-size: cover;
+}
+
+.studies .texts {
+    position: relative;
+    top: 68px;
+    left:500px;
+    color: #fff;
+}
+
+.list {
+    margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+    width:854px;
+    display: flex;
+    color: #fff;
+   
+    justify-content: center;
+}
+
+.lists-l {
+    width: 376px;
+    border:1px solid#056ea8;
+    margin-right:36px;
+}
+
+.lists-l ul {
+    margin:0;
+    padding:0;
+}
+.lists-l li {
+    text-align: center;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-weight: bold;
+    color: #000;;
+    border-bottom: 1px solid #000;
+}
+
+.lists-r {
+    width: 376px;
+    border:1px solid#056ea8;
+    /* margin-right:36px; */
+}
+.lists-r ul {
+    margin:0;
+    padding:0;
+}
+.lists-r li {
+    text-align: center;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-weight: bold;
+    color: #000;;
+    border-bottom: 1px solid #000;
+}
+.lists-header {
+    margin:0;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #056ea8;
+    color:#fff;
+    font-weight: bold;
+}
+
+.risk-text {
+    height: 136px;
+    background-color: #056ea8;
+}
+.risk-text h1 {
+    margin: 0;
+    padding-top: 42px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.jukou h1 {
+    text-align: center;
+}
+.jukou {
+    width:1170px;
+    margin: 0 auto;
+}
+
+.follow-img img{
+    width: 1000px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.roadmap {
+    display: flex;
+    width: 1170px;
+    height: 220px;
+    background-color: #fef5e0;
+}
+.lines {
+    width:1170px;
+    margin: o auto;
+}
